@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Question and Task factories","Buy pants and spend all money","SUCCESS","2019-08-26T14:22:40.281-03:00[America/Buenos_Aires]","0.0","0.72"
+"Question and Task factories","Buy socks and have money left","FAILURE","2019-08-26T14:22:41.013-03:00[America/Buenos_Aires]","0.0","0.12"

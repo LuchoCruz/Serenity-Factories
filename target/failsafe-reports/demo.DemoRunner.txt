@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: demo.DemoRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.235 s <<< FAILURE! - in demo.DemoRunner
+Buy socks and have money left(Question and Task factories)  Time elapsed: 0.159 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: "A lot of money left n"
+     but: was "A lot of money left"
+

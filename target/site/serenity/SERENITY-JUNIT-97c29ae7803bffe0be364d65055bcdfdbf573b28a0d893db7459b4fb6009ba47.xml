@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Question and Task factories" skipped="0" tests="2" time="0.84" timestamp="2019-08-26 02:22:40"><testcase name="Buy pants and spend all money"/><testcase name="Buy socks and have money left"><failure message="&#10;Expected: &quot;A lot of money left n&quot;&#10;     but: was &quot;A lot of money left&quot;" type="java.lang.AssertionError">
+Expected: "A lot of money left n"
+     but: was "A lot of money left"</failure><system-err>
+Expected: "A lot of money left n"
+     but: was "A lot of money left"&#13;
+demo.cucumber.steps.DemoStepDefs.userAHasALotOfMoneyLeft(DemoStepDefs.java:48)&#13;
+✽.user A has a lot of money left(src/test/resources/features/demo.feature:10)&#13;
+</system-err></testcase></testsuite>
