@@ -1,8 +1,8 @@
 package demo.screenplay.tasks;
 
-import net.serenitybdd.screenplay.Performable;
+import net.serenitybdd.screenplay.Task;
 
 public class Buy {
-    public static Performable socks(String type){return new BuysSocks(type);}
-    public static Performable pants(String color){return new BuysPants(color);}
+    public static Task socks(String type){return new BuysSocks(type);}
+    public static Task pants(String color){return new BuysPants(color);}
 }

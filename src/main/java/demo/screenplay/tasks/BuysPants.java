@@ -1,12 +1,12 @@
 package demo.screenplay.tasks;
 
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
+import net.serenitybdd.screenplay.Task;
 import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class BuysPants implements Performable {
+public class BuysPants implements Task {
     private String color;
 
     public BuysPants(String color){

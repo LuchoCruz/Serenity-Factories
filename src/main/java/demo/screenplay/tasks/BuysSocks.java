@@ -1,12 +1,12 @@
 package demo.screenplay.tasks;
 
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
+import net.serenitybdd.screenplay.Task;
 import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class BuysSocks implements Performable {
+public class BuysSocks implements Task {
     private String type;//Low cut, No-show, Executive
     public BuysSocks(String type){
         this.type = type;
